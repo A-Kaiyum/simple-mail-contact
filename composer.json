@@ -15,6 +15,14 @@
         "psr-4": {
             "Srabon\\Contact\\": "src/"
         }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Srabon\\Contact\\ContactServiceProvider"
+        ]
+
     }
+}
 
 }
