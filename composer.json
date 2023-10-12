@@ -1,0 +1,20 @@
+{
+    "name": "srabon/contact",
+    "description": "simple email sender",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "srabon"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Srabon\\Contact\\": "src/"
+        }
+    }
+
+}
