@@ -11,6 +11,7 @@ $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 $this->mergeConfigFrom(__DIR__.'/config/contact.php','contact');
 $this->publishes([
     __DIR__.'/config/contact.php'=>config_path('contact.php'),
+    __DIR__.'/views'=>resource_path('views/contact'),
 ]);
 
 }
